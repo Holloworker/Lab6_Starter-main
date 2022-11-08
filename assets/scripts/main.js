@@ -105,7 +105,7 @@ function initFormHandler() {
     let new_rp = document.createElement('recipe-card');
     new_rp.data = Object; 
     let main_el = document.querySelector('main')
-    main_el.appendChild(new_rp);
+    main_el.append(new_rp);
     let recipe = JSON.parse(localStorage.getItem('recipes'));
     recipe.push(Object);
     saveRecipesToStorage(recipe);

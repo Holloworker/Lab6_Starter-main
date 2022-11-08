@@ -91,8 +91,8 @@ class RecipeCard extends HTMLElement {
       color: #70757A;
       font-size: 12px;
     }`;
-    shadowel.appendChild(markup_art);
-    shadowel.appendChild(styles);
+    shadowel.append(markup_art);
+    shadowel.append(styles);
 
   }
 
